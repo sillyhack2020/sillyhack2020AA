@@ -16,7 +16,7 @@ We offer many suggestions for enlightening your mood with comics, movels, movies
 4. HTML/CSS
 5. Bootstrap
 
-3Demo:
+#Demo:
 To run this on your local system, follow these steps:
 
 1. Clone this repository.
@@ -31,7 +31,7 @@ To run this on your local system, follow these steps:
       npm install-g create-react-app
       create-react-app generatememes
       
-Run the following commands:
+      Run the following commands:
       cd generatememes/> npm start
       
 4. For feedback service.
