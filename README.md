@@ -40,6 +40,7 @@ Install XAMPP server and make same database respective to the registration.php a
 You're all set! Head to
 
 **Team - HACK 'O HOLICS**
+
 *Aditi Gupta
  Akansha*
 
