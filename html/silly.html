@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<!--carousel css
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">-->
+  <link rel="stylesheet" href="css/silly.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+<script src = "js/quiz.js"></script>
+
+  <title>SILLY HACKS 2020</title>
+</head>
+
+<body>
+
+  <!-- JAVASCRIPT-->
+ <section id = "nav-bar">
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#"> </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <i class="fas fa-align-justify"></i>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="#about_us">About us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="reference.html" target="_blank">Reference</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</section>
+
+<!--heading-->
+  <section>
+  <div class="bg">
+ <h1 id ="h1"><img src="images/welcomeidiot.jpeg" alt="outline-fonts" border="0">
+<img src="images/idiot.gif" class="bgg">
+</h1>
+  </div>
+</section>
+
+<!--HI PART-->
+ <div class="hi_sticker">
+      <img src="images/hello.gif" alt="Hi" class="eimage1">
+      <div class="text_box">
+      <p class="text_hi"> 
+      <b>Just popping into say HI. </br> 
+      Hope you have a good start with us.</b></p>
+  </div>
+</div>
+
+
+<!--jokes-->
+<div class= "heading">
+<img  src="images/jok.gif" class= "jokegif">
+<h2 class="text_jokes"><img src="images/jokes.jpeg" alt="3d-fonts" border="0">
+</h2>
+</div>
+<section class="jokes">
+<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-interval="20000">
+      <img src="images/meme1.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-interval="3000">
+      <img src="images/j2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-interval="3000">
+      <img src="images/j3.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="false"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</section>
+
+
+<!--meme generator-->
+<section>
+<h2 id="meme_heading"><b>Meme Generator</b></h2>
+<div class="memess"><img class="meme_gif" src="images/meme.gif" >
+<p class="meme_para" >Want to create your own meme?<br>You have the moment now:)</p>
+</div>
+<div class="meme_button">
+    <a href="#" class="btn btn-white btn-animated">Generate</a>
+</div>
+</section>
+
+
+
+
+ <!--quiz part -->
+ <section id="Q"> 
+ <div class="Q">
+    <h1 class="quiz_h1"><b>WIN The QUIZOMANIA</b></h1>
+<img class="quiz_sticker2" src="images/quiz1.gif">
+    <form id="quizs" name="quiz">
+      <p class="question">What is the capital of Rhode Island?</p>
+      <input id="quiz_textbox" type="text" name="question1">
+
+       <p class="question">What is the capital of Connecticut?</p>
+      <input type="radio" id="options" name="question2" value="Hartford"> Hartford<br>
+      <input type="radio" id="options" name="question2" value="Heartford"> Heartford<br>
+
+      <p class="question">What is the capital of New York?</p>
+
+      <input type="radio" id="options" name="question3" value="Albany"> Albany<br>
+      <input type="radio" id="options" name="question3" value="All Benny's"> All Benny's<br>
+
+
+       <input id="button" type="button" value="I am Done!" onclick="check();">
+    </form>
+    <div id="after_submit">
+      <p id="number_correct"></p>
+      <p id="message"></p>
+      <img id="picture">
+    </div>
+
+</div>
+</section>
+
+
+
+<!--About us-->
+ <section id="about_us">
+<div class=" creators">
+  <img src="images/wanna.png" alt="Creators" class="eimage2">
+<div class=" wannabox">
+<p class="wanna">Wanna know about us?</p>
+</div>
+</div>
+</section>
+
+<div class="container">
+  <div class="row">
+    <div class="column">
+      <div class="effect-1">
+        <div class="effect-img">
+          <img src="images/aditi.jpeg" alt="Image">
+        </div>
+        <div class="effect-text">
+          <h2>Aditi Gupta</h2>
+            <p>I am a WebD freak.</p>
+            <div class="effect-btn">
+              <a class="btn" href="creator1.html" target="_blank">Read More</a>
+            </div>
+        </div>
+      </div>
+    </div>
+        <div class="column">
+      <div class="effect-1">
+        <div class="effect-img">
+          <img src="images/akansha.jpeg" alt="Image">
+        </div>
+        <div class="effect-text">
+          <h2>Akansha</h2>
+            <p>Frontend is in my blood.</p>
+            <div class="effect-btn">
+              <a class="btn" href="creator2.html" target="_blank">Read More</a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Add jokes-->
+<section id="add_joke">
+<img src="images/feature.gif" id ="feature_gif">
+<div id="text_feature"> Want to give any suggestion or joke?
+</div>
+<div id ="feature_button">
+<!--<button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false">-->
+   <a href="http://localhost/demo/registration.php" class="btn btn-white btn-animated">Suggestion</a>
+</div>
+</section>
+
+<!--Bye-->  
+<section>
+<div class="byes">
+<img id="bye" src="https://media.tenor.com/images/b5c9a3705e297f9200f00bdf3c412e35/tenor.gif" >
+</div>
+</section>
+
+
+
+  <!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+ <script src="js/quiz.js" charset="utf-8"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<!-- <script src="js/jokes.js"></script>-->
+<!--carousal
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>-->
+<!--jquery
+<script type="text/javascript">$(document).ready(function(){ $('.carousel').carousel();
+  });
+</script>-->
+</body>
+
+</html>
