@@ -48,6 +48,8 @@ Akansha
 <p float="left>
 <img src="images/MAIN_PAGE.png" width="300" height="200" display="inline-block">
 <img src="images/Register.png" width="300" height="200" display="inline-block">
+                                                                              </p>
+<p float="left>                                                                              
 <img src="images/quiz_ss.png" width="300" height="200" display="inline-block">
 <img src="images/referencesss.png" width="300" height="200" display="inline-block">
                                                            </p>
