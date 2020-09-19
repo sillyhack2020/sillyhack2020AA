@@ -41,7 +41,7 @@ You're all set! Head to
 
 **Team - HACK 'O HOLICS**
 
-*Aditi Gupta
- Akansha*
+*Aditi Gupta*
+*Akansha*
 
 © 2020 GitHub, Inc.
