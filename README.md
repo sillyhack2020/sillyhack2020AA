@@ -7,7 +7,7 @@ Thus, came up with an idea of hacking for little joy:)
 
 **About Project:**
 We aim to bring smile on every face across the world. The onset of the COVID-19 pandemic has driven us to make something which would leave the  tension aside. We have created this source for you all to share the jokes, the memes, the fun and most importantly your thoughts.
-We offer many suggestions for enlightening your mood with comics, movels, movies and web series. Your thought of fun could be share with everyone by feedback option. We aspire to contribute a bit of happiness from our side to yours. 
+We offer many suggestions for enlightening your mood with comics, novels, movies and web series. Your thought of fun could be share with everyone by feedback option. We aspire to contribute a bit of happiness from our side to yours. 
 
 **Tech Stack:**
 1. PHP using XAMPP
