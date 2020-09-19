@@ -20,7 +20,7 @@ We offer many suggestions for enlightening your mood with comics, novels, movies
 To run this on your local system, follow these steps:
 
 1. Clone this repository.
-      git clone :
+      git clone : https://github.com/sillyhack2020/sillyhack2020AA/
 
 2. Make sure you have installed Git on your machine before you install Node.js.
    Complete the set up of Node.js and NPM on your machine
@@ -37,7 +37,8 @@ To run this on your local system, follow these steps:
 4. For feedback service.
 Install XAMPP server and make same database respective to the registration.php and server.php.
       
-You're all set! Head to
+You're all set to launch! 
+Link for demo: https://youtu.be/tBNAwQexIr8
 
 **Team - HACK 'O HOLICS**
 
