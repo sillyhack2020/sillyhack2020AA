@@ -1,5 +1,5 @@
 _**DOLTISH**_
-_**Silly Hacks 2020**_ - Team HACK 'O HOLICS   
+**Silly Hacks 2020** - Team HACK 'O HOLICS   
 We applause your happiness.
 
 **Aim**
