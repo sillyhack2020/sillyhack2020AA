@@ -41,8 +41,10 @@ You're all set! Head to
 
 **Team - HACK 'O HOLICS**
 Aditi Gupta
+
 Akansha
 
-![]
+<img src="images/MAIN_PAGE.png" width="300" height="200">
+<img src="images/Register.png" width="300" height="200">
 
 © 2020 GitHub, Inc.
