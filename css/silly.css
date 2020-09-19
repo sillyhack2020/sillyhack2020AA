@@ -49,7 +49,6 @@ position: relative;
 }
 
 #h1{
-//margin-left: 2em;
 padding: 2.7em;
 padding-right: 0em;
 width : 100%;
@@ -120,7 +119,7 @@ display: inline;
   padding-right: 0.3em;
   margin-top: 8%;
   margin-left: 3%;
-  margin-right: 5%;
+  margin-right: 7%;
   border: solid #ad8d2f 0.625rem;
   animation: Left 1s ease-out ;
 }
@@ -140,7 +139,7 @@ display: inline;
 font-family: "Comic Sans MS", "Brush Script MT", "Times New Romans";
   letter-spacing: .125rem;
   line-height: 1.9;
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   text-align: center;
   //padding-right: 3em;
  padding-bottom: -6em;
@@ -185,7 +184,8 @@ margin-bottom: 7em;
 }
 
 #carouselExampleInterval .carousel-inner{
-width: 100%;
+width: 80%;
+margin-left: 2.6em;
 }
 
 #carouselExampleInterval .carousel-inner img{
@@ -358,7 +358,7 @@ display: inline-block;
   margin-top: -3em;
 font-family: "Lucida Console","Comic Sans MS", "Brush Script MT", "Times New Romans";
   letter-spacing: .123rem;
-  line-height: 4.7;
+  line-height: 1.7;
   font-size: 2.4em;
   text-align: center;
 display: inline-block;
@@ -620,13 +620,17 @@ animation: animate  8s linear  infinite;
   background-position: 100% 0;
          }
 }
+
 .footer{
 background-color: #C71585;
-padding: 0.289em;
-padding-top: 0.189em;
+margin-top: 1.5em;
+padding-top: 0.15em;
 color :#fff !important;
-font-weight: 600;
+font-weight: 400;
+text-align: center;
 }
 .footer_text{
+//float:right;
 text-align: center;
+font-weight: 600;
 }
