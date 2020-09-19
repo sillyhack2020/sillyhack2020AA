@@ -7,25 +7,24 @@ function check(){
     var correct = 0;
 
 
-    if (question1 == "Hartford") {
+    if (question1 == "Map") {
         correct++;
 }
-    if (question2 == "Hartford") {
+    if (question2 == "Looks") {
         correct++;
 }   
     if (question3 == "Albany") {
         correct++;
     }
     
-     var pictures = ["./images/win.gif", "./images/meh.jpeg", "./images/lose.gif"];
-    var messages = ["Great job!", "That's just okay", "You really need to do better"];
+     var pictures = ["./images/win.gif", "./images/tenor.gif", "./images/lose.gif"];
+    var messages = ["Great job!", "That's just okay", "You really need to do better :)"];
     var score;
 
     if (correct == 0) {
         score = 2;
     }
-
-    if (correct > 0 && correct < 3) {
+    if (correct>0 && correct<3) {
         score = 1;
     }
 
