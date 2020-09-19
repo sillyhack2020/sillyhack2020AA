@@ -45,10 +45,12 @@ Aditi Gupta
 
 Akansha
 
-<p float="left>
-<img src="images/MAIN_PAGE.png" width="100" height="100" display="inline-block">
-<img src="images/Register.png" width="100" height="100" display="inline-block">                                                                      <img src="images/quiz_ss.png" width="100" height="100" display="inline-block">
-<img src="images/referencesss.png" width="100" height="100" display="inline-block">
-                                                           </p>
-
+<p float="left">
+<img src="images/MAIN_PAGE.png" width="150" height="100" >
+<img src="images/Register.png" width="150" height="100" >   
+<img src="images/quiz_ss.png" width="150" height="100" >
+<img src="images/referencesss.png" width="150" height="100" >
+<img src="images/tracks.png" width="150" height="100" >
+          </p>  
+          
 **© 2020 GitHub, Inc.**
